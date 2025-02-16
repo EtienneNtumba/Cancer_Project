@@ -22,7 +22,7 @@ plt.xlabel("Samples")
 plt.ylabel("Genes")
 
 # Save as PNG
-heatmap_path = "gene_expression_heatmap.png"
+heatmap_path = "figure/gene_expression_heatmap.png"
 plt.savefig(heatmap_path, dpi=300)
 plt.show()
 
