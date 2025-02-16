@@ -50,8 +50,8 @@ python main.py
 - **Gene expression counts** (stored in `counts/`), representing raw expression levels.
 - **Differential expression results** (`differential_expression/deseq2_results.csv`), showing significantly changed genes.
 - **GO enrichment results** (`go_enrichment_results.csv`), providing functional insights into affected pathways.
-- **Heatmap visualization of selected genes** [`View Heatmap`](figures/gene_expression_heatmap.png)
-- **Volcano Plot** [`View Volcano Plot`](figures/volcano_plot.png)
+- **Heatmap visualization of selected genes** [`View Heatmap`](figure/gene_expression_heatmap.png)
+- **Volcano Plot** [`View Volcano Plot`](figure/volcano_plot.png)
 - **PCA Plot** [`View PCA Plot`](figures/pca_plot.png)
 - **MA Plot** [`View MA Plot`](figures/ma_plot.png)
 - **Boxplot** [`View Boxplot`](figures/boxplot.png)
