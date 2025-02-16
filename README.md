@@ -111,9 +111,6 @@ A **boxplot** visualizes the distribution of gene expression levels across diffe
 ## Contributing
 If you would like to contribute to this project, feel free to submit a **pull request** or open an **issue**.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 For inquiries or collaborations, contact:
 **Etienne Ntumba Kabongo**
