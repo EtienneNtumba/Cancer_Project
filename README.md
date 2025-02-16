@@ -52,34 +52,34 @@ python main.py
 - **GO enrichment results** (`go_enrichment_results.csv`), providing functional insights into affected pathways.
 - **Heatmap visualization of selected genes** [`View Heatmap`](figure/gene_expression_heatmap.png)
 - **Volcano Plot** [`View Volcano Plot`](figure/volcano_plot.png)
-- **PCA Plot** [`View PCA Plot`](figures/pca_plot.png)
-- **MA Plot** [`View MA Plot`](figures/ma_plot.png)
-- **Boxplot** [`View Boxplot`](figures/boxplot.png)
+- **PCA Plot** [`View PCA Plot`](figure/pca_plot.png)
+- **MA Plot** [`View MA Plot`](figure/ma_plot.png)
+- **Boxplot** [`View Boxplot`](figure/boxplot.png)
 
 ## Example Visualizations and Analysis
 ### **1. Heatmap of Gene Expression**
 A **heatmap** represents gene expression levels across multiple samples, helping to identify patterns of **upregulated** or **downregulated** genes.
-![Gene Expression Heatmap](figures/gene_expression_heatmap.png)
+![Gene Expression Heatmap](figure/gene_expression_heatmap.png)
 
 ### **2. Volcano Plot**
 A **volcano plot** visualizes differentially expressed genes by plotting **log2 fold change** vs **-log10 p-value**. Genes with significant changes are highlighted.
-![Gene Expression Heatmap](figures/gene_expression_heatmap.png) 
-[🔗 View Full Image](figures/volcano_plot.png)
+![Gene Expression Heatmap](figure/gene_expression_heatmap.png) 
+[🔗 View Full Image](figure/volcano_plot.png)
 
 ### **3. PCA Plot**
 A **PCA (Principal Component Analysis) plot** shows clustering of samples based on gene expression. This helps in assessing batch effects or sample separability.
-![PCA Plot](figures/pca_plot.png)  
-[🔗 View Full Image](figures/pca_plot.png)
+![PCA Plot](figure/pca_plot.png)  
+[🔗 View Full Image](figure/pca_plot.png)
 
 ### **4. MA Plot**
 An **MA plot** compares the mean expression of genes across conditions with **log2 fold change**, helping to visualize systematic shifts in gene expression.
-![MA Plot](figures/ma_plot.png)  
-[🔗 View Full Image](figures/ma_plot.png)
+![MA Plot](figure/ma_plot.png)  
+[🔗 View Full Image](figure/ma_plot.png)
 
 ### **5. Boxplot**
 A **boxplot** visualizes the distribution of gene expression levels across different samples, ensuring data normalization and variance comparison.
-![Boxplot](figures/boxplot.png)  
-[🔗 View Full Image](figures/boxplot.png)
+![Boxplot](figure/boxplot.png)  
+[🔗 View Full Image](figure/boxplot.png)
 
 ## Interpretation of Results
 - **Clusters in PCA plot** indicate strong differentiation between conditions.
