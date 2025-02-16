@@ -81,11 +81,32 @@ A **boxplot** visualizes the distribution of gene expression levels across diffe
 ![Boxplot](figure/boxplot.png)  
 [🔗 View Full Image](figure/boxplot.png)
 
-## Interpretation of Results
-- **Clusters in PCA plot** indicate strong differentiation between conditions.
-- **Significantly differentially expressed genes** in the **volcano plot** highlight potential biomarkers.
-- **GO enrichment analysis** provides insights into biological pathways affected by differentially expressed genes.
-- **The heatmap** helps in identifying specific genes involved in disease mechanisms.
+## Discussion and Interpretation
+### **1. Gene Expression Heatmap**
+- The heatmap indicates variation in expression levels across different cancer samples. Genes such as **TP53, BRCA1, and MYC** show distinct expression patterns, which may correlate with specific cancer subtypes.
+- Higher expression of **oncogenes** like **MYC** suggests an active role in tumor progression.
+- Suppressed expression of **tumor suppressor genes** like **PTEN** and **RB1** could indicate loss of function mutations contributing to cancer growth.
+
+### **2. Volcano Plot Interpretation**
+- The volcano plot highlights **differentially expressed genes**, where upregulated genes (positive log2 fold change) could be potential **oncogenes**, while downregulated genes (negative log2 fold change) may include **tumor suppressors**.
+- Genes beyond the significance threshold (p < 0.05) should be investigated for potential **biomarker discovery** in cancer diagnostics.
+
+### **3. PCA Plot Insights**
+- The PCA plot suggests clear clustering of samples, indicating **distinct gene expression profiles** among different groups.
+- Separation along **Principal Component 1 (PC1)** may correlate with different cancer subtypes, highlighting transcriptomic differences in tumor biology.
+
+### **4. MA Plot Insights**
+- The MA plot shows the **relationship between gene expression and fold change**, helping to identify consistently differentially expressed genes.
+- Genes significantly different from the horizontal baseline may be **potential therapeutic targets**.
+
+### **5. Boxplot Interpretation**
+- The boxplot shows **distribution of expression levels** across key genes.
+- Large variability in genes like **BRCA1 and MYC** suggests heterogeneous expression among cancer samples, potentially linked to different stages or types of cancer.
+
+## Conclusion
+- The analysis provides insight into **gene expression changes in cancer**, identifying key oncogenes and tumor suppressors.
+- Differentially expressed genes and clustering patterns suggest **potential biomarkers for cancer classification and treatment targeting**.
+- Further functional enrichment analysis could reveal **pathways involved in tumorigenesis and potential drug targets**.
 
 ## Contributing
 If you would like to contribute to this project, feel free to submit a **pull request** or open an **issue**.
@@ -97,4 +118,3 @@ This project is licensed under the MIT License.
 For inquiries or collaborations, contact:
 **Etienne Ntumba Kabongo**
 Email: [etienne.ntumba.kabongo@umontreal.ca](mailto:etienne.ntumba.kabongo@umontreal.ca)
-
