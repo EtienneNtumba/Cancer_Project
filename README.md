@@ -59,7 +59,7 @@ python main.py
 ## Example Visualizations and Analysis
 ### **1. Heatmap of Gene Expression**
 A **heatmap** represents gene expression levels across multiple samples, helping to identify patterns of **upregulated** or **downregulated** genes.
-![Gene Expression Heatmap](figures/gene_expression_heatmap.png)  
+![Gene Expression Heatmap]([(https://raw.githubusercontent.com/EtienneNtumba/Cancer_Project/main/figures/gene_expression_heatmap.png)])  
 [🔗 View Full Image](figures/gene_expression_heatmap.png)
 
 ### **2. Volcano Plot**
