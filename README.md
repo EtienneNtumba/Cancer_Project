@@ -63,7 +63,7 @@ A **heatmap** represents gene expression levels across multiple samples, helping
 
 ### **2. Volcano Plot**
 A **volcano plot** visualizes differentially expressed genes by plotting **log2 fold change** vs **-log10 p-value**. Genes with significant changes are highlighted.
-![Gene Expression Heatmap](figure/gene_expression_heatmap.png) 
+![Gene Expression Heatmap](figure/volcano_plot.png) 
 [🔗 View Full Image](figure/volcano_plot.png)
 
 ### **3. PCA Plot**
