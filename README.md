@@ -55,7 +55,7 @@ python main.py
 ## Example Visualization
 The following is an example heatmap of key gene expressions:
 
-![Gene Expression Heatmap](figures/gene_expression_heatmap.png)
+![Gene Expression Heatmap](figure/gene_expression_heatmap.png)
 
 ## Contributing
 If you would like to contribute to this project, feel free to submit a **pull request** or open an **issue**.
