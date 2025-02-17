@@ -111,7 +111,8 @@ A **boxplot** visualizes the distribution of gene expression levels across diffe
 ## Contributing
 If you would like to contribute to this project, feel free to submit a **pull request** or open an **issue**.
 
-## Contact
-For inquiries or collaborations, contact:
-**Etienne Ntumba Kabongo**
-Email: [etienne.ntumba.kabongo@umontreal.ca](mailto:etienne.ntumba.kabongo@umontreal.ca)
+## Author
+
+**Etienne Ntumba Kabongo**  
+📧 Email: [etienne.ntumba.kabongo@umontreal.ca](mailto:etienne.ntumba.kabongo@umontreal.ca)  
+🔗 GitHub: [EtienneNtumba](https://github.com/EtienneNtumba)
